@@ -1,0 +1,136 @@
+/* default.css */
+* { margin: 0px; padding: 0px; }
+body, html { height: 100%; margin: 0;}
+
+#margin{
+	width: 1000px;
+	margin: auto;
+}
+#bg{
+    
+    background-image: url("aqua.jpg");
+    height: 139%; 
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	background-attachment: fixed;	
+}
+
+#menu { text-align: center;}
+
+#menu ul {
+	display: inline-flex;
+	list-style-type:none;
+}
+#menu ul li {
+  width: 170px;
+  height: 15px;
+  background-color: #0144af;
+  margin: 2px;
+  float: center;
+  padding: 12px;
+  font-size: 11px;
+}
+#plan { text-align: left;}
+
+ 
+
+#plan ul{	display: inline-flex;
+			list-style-type:none;
+}	
+
+#plan ul li {
+  width: 232px;
+  height: 135px;
+  background-color: #0144af;
+  margin: 2px;
+  float: center;
+  padding: 7px;
+  color: white;
+  
+}
+
+#welcome { text-align: left;}
+#welcome ul{ display: inline-flex;
+			list-style-type:none;
+}	
+
+#welcome ul li{ 
+	width: 550px;
+	height: 280px;
+	float: center;
+	padding: 1px;
+	margin-left: 5px;
+	
+
+}
+
+#resize{ 
+	text-align: left;
+}
+#resize ul li{	
+	width: 440px;
+	height: 280px;
+	float: center;
+	padding: 2px;
+	text-align: left;
+	margin-right: 2px;
+	margin-left: 3px;
+}
+#disc{ text-align: center;}
+#disc ul {
+
+	display: list-item;
+}
+#disc ul li{
+	list-style-type: disc;
+	width: 100px;
+	height: 10px;
+	margin-left: 50px;
+	float: none;
+	padding: 2px;
+	text-align: center;
+}
+	
+#menu ul li:hover { background-color: #C0C0C0; color: #fff; }
+#menu ul li a { text-decoration: none;  }
+#menu ul li a:hover { color: #fff;  }
+
+#footer {
+	left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 130px;
+   clear: both;
+   background-color: #0144af;
+  
+}
+#corp{ text-align: left;}
+
+#corp ul{ display: inline-flex;
+			list-style-type:none;
+}
+#corp ul li{ 
+	color: white;
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 220px;
+	padding: 5px;
+	font-family: "verdana"
+}
+
+#recorp{text-align: left;}
+
+#recorp ul{ display: inline-flex;
+			list-style-type:none;
+}
+
+#recorp ul li{ 
+	color: white;
+	margin-right: 20px;
+	margin-left: 0px;
+	width: 320px;
+}
+
+
+
